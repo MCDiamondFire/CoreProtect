@@ -1,5 +1,5 @@
 # CoreProtect Fork for DiamondFire
-A fork of [CoreProtect](https://github.com/PlayPro/CoreProtect) for DiamondFire Minecraft server
+A fork of [CoreProtect](https://modrinth.com/plugin/coreprotect) for DiamondFire Minecraft server
 
 ## List of Changes
 - Removes "safety teleport" that CoreProtect performs when rolling back
