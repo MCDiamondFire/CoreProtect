@@ -1255,6 +1255,7 @@ public class Rollback extends Queue {
                             ConfigHandler.rollbackHash.put(finalUserString, new int[] { itemCount1, blockCount1, entityCount1, 1, (scannedWorlds + 1) });
 
                             // Teleport players out of danger if they're within this chunk
+                            /*
                             if (preview == 0) {
                                 for (Player player : Bukkit.getOnlinePlayers()) {
                                     Location playerLocation = player.getLocation();
@@ -1267,6 +1268,7 @@ public class Rollback extends Queue {
                                     }
                                 }
                             }
+                            */
                         }
                         catch (Exception e) {
                             e.printStackTrace();
